@@ -12,52 +12,25 @@
     <title>Ejercicio1</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-
+    <header class="colorHeader text-center py-4">
+      <h2 class="fs-3">Trabajo practico numero 5</h2>
+      <h4>Ejercicio 1</h4>
     </header>
-    <main class="bg-primary text-light">
-<p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium hic perferendis odio, est excepturi aut beatae officia iusto laborum dolores impedit quisquam aperiam. Esse molestiae voluptatem consectetur saepe temporibus amet labore nesciunt ad tenetur. Obcaecati doloribus repudiandae quasi, veritatis numquam et vel nam ullam reiciendis facere, fuga atque earum, molestias delectus rerum aliquam accusamus quisquam? Voluptatem molestiae maxime perspiciatis aspernatur aliquam, porro velit asperiores illo, eligendi omnis doloribus ipsum quisquam quaerat magnam! Quos tempora accusantium aliquam dignissimos nobis, quo modi enim voluptates, perferendis eligendi error porro sunt magnam velit, magni facilis placeat unde vel delectus quod ullam rerum recusandae. Facere temporibus aut numquam omnis neque qui culpa quam! Obcaecati, facere numquam nesciunt officia recusandae laborum maxime necessitatibus iusto? Quisquam ea facere magni tempore harum suscipit ex quasi voluptates dolor atque, adipisci, voluptate sapiente tempora perspiciatis neque eum nam eligendi aut quae eos magnam. Tempore, nam! Praesentium explicabo inventore quod, et neque corrupti nam est vel consectetur. Debitis excepturi expedita est eius, cumque a quisquam nobis quidem aperiam sint? A non porro, suscipit ipsum esse, mollitia aliquam natus provident accusantium odio ut ab rerum, quas obcaecati dolores cupiditate quod nihil sint molestias. Quaerat non ex fuga, totam magni enim autem ea!
-</p>
+    <main class="colorMain text-light">
+      <h1 class="text-center">Juego de numeros magicos</h1>
+        <hr>
+        <section>
+            <button class="btn btn-success" onclick="comenzarJuego()">Comenzar el juego</button>
+            <form class="my-5" id="formulario">
+                <div class="d-flex">
+                    <input type="number" class="form-control" placeholder="Ingrese un numero" minlength="1" maxlength="6" id="inputAdivinar">
+                    <button class="btn btn-danger" type="submit">Adivinar</button>
+                </div>
+            </form>
+        </section>
     </main>
     <footer class="bg-dark text-light text-center">
-        <p>
+        <p class="fs-4">
             &copy;Todos los derechos reservados
         </p>
 
